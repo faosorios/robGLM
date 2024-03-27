@@ -1,3 +1,6 @@
+## R commands related to Supplementary Material of "A robust approach for generalized 
+## linear models based on maximum Lq-likelihood procedure"
+
 # load Finney's dataset and source .R files
 load("../data/finney.rda")
 source("../code/robLogistic.R")
