@@ -13,4 +13,6 @@ Code tested on:
 - R under development (2018-02-21 r74285), running Linux Mint 18.3 (64 bits)
 - R version 3.3.0, running OS X 10.13.4 (64 bits)
 
-Attached base packages: robustbase
+Attached base packages: stats, graphics, grDevices, utils, datasets, methods, base
+
+Other attached packages (updated): robustbase-0.95
