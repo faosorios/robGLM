@@ -7,7 +7,7 @@ Supplementary material to **A robust approach for generalized linear models base
 
 Code written by: Felipe Osorio
 
-Correspondence author: Felipe Osorio, Email: felipe.osorios@usm.cl
+Correspondence author: Felipe Osorio, Email: faosorios.stat@gmail.com
 
 Code tested on:
 - R under development (2018-02-21 r74285), running Linux Mint 18.3 (64 bits)
