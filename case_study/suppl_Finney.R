@@ -20,7 +20,7 @@ fm078 <- robLogistic(Response ~ log(Volume) + log(Rate), data = finney, qpar = 0
 fm076 <- robLogistic(Response ~ log(Volume) + log(Rate), data = finney, qpar = 0.76)
 fm074 <- robLogistic(Response ~ log(Volume) + log(Rate), data = finney, qpar = 0.74)
 
-# panels of Figure 6.1
+# panels of Figure 1.1
 obs <- c(4,18,24)
 
 pdf(file = "wts098.pdf")
@@ -174,7 +174,7 @@ oeta74 <- sort(eta74)
 oeta74 <- c(-120, oeta74, 45)
 prob74 <- exp(oeta74) / (1 + exp(oeta74)) 
 
-# panels of Figure 6.2
+# panels of Figure 1.2
 pdf(file = "prob098.pdf")
 par(pty = "s")
 plot(oeta98, prob98, xlim = c(-20,10), ylim = c(0,1.05), type = "l", xlab = "Linear predictor", ylab = "Probability", cex = 1.2, cex.lab = 1.2, cex.axis = 1.2, lwd = 2)
