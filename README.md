@@ -23,7 +23,7 @@ CONTENTS:
 - case_study/suppl_Finney.R: R commands for additional result reported in the Supplementary Material
 - code/envelope.R: R functions for computation of QQ-plots with simulated envelopes.
 - code/qopt.R: R function for the selection of distortion parameter 'q'.
-- code/robLogistic.R: R functions for robust estimation in the logistic regression model (used to analyse Finney's data).
+- code/robLogistic.R: R functions for robust estimation in the logistic regression model (used to analyse Finney's and Leukemia data).
 - code/robLogLin.R: R functions for robust estimation in the log-linear regression model (used in simulation experiment).
 - data/finney.csv: transient vasoconstriction (or Finney's) dataset in CSV format.
 - data/finney.rda: transient vasoconstriction (or Finney's) dataset in RDA format.
